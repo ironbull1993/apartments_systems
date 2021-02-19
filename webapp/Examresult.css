@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	font-size: 14px;
+	font-family:serif;
+}
+
+body{
+	padding: 40px 10px;
+}
+
+.title{
+	text-transform: uppercase;
+	color: black;
+	border-width: 1px;
+}
+
+table{
+	border-collapse: separate;
+	width: 60%;
+	margin: 20px auto 0;
+	font-size: 1.5 rem;
+	color: black;
+	border-radius: 2px;
+	border-color: black;
+}
+table thead{
+	background-color:mediumpurple;
+	border: 1px solid black;
+	padding: 4px 3px;
+	border-width: 1px;
+}
+
+
+table th,
+table td{
+	border: 1px solid black;
+	padding: 4px 3px;
+	border-width: 1px;
+}
+
